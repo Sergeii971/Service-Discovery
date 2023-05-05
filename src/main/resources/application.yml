@@ -9,3 +9,10 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
+
+logging:
+  file:
+    name: ./log/service-discovery.log
+spring:
+  application:
+    name: service-discovery
